@@ -206,7 +206,7 @@ h2 {
   color: rgb(51, 66, 87);
   font-size: 2.25vw;
   padding-left: 6vw;
-  padding-right: 4vw;
+  padding-right: 0vw;
   padding-top: 0;
   margin: auto;
 }
@@ -282,11 +282,13 @@ li .bbb-logo,
 }
 
 header {
-  height: 9vw;
+  height: 4vw;
 }
 
 .h2__modified {
   font-size: 3vw;
+  padding-left: 1vw;
+  margin-left: 10vw;
 }
 
 .pink {
@@ -842,7 +844,7 @@ header {
 
 .pay-button__button {
   width: 33vw;
-  margin-left: 6vw;
+  margin-left: 2vw;
   background-image: "./images/6-01-20.1805-cc-strip-base.png";
 }
 
@@ -2540,7 +2542,7 @@ video {
   }
   .pay-button__button {
     width: 33vw;
-    margin-left: 6vw;
+    margin-left: -0.5vw;
     background-image: "./images/6-01-20.1805-cc-strip-base.png";
   }
   .pay-button__button:hover {

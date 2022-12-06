@@ -280,7 +280,7 @@ h2 {
     color: getColor(bbb2-CompassBlue);
     font-size: 2.25vw;
     padding-left: 6vw;
-    padding-right: 0vw;
+    padding-right: 4vw;
     padding-top: 0;
     margin: auto;
 }
@@ -364,15 +364,13 @@ li .bbb-logo,
 
 header {
 
-    height: 4vw;
+    height: 9vw;
 
 }
 
 .h2__modified {
 
     font-size: 3vw;
-    padding-left: 1vw;
-    margin-left: 10vw;
 
 }
 
@@ -994,7 +992,7 @@ header {
 
 .pay-button__button {
     width: 33vw;
-    margin-left: 2vw;
+    margin-left: 6vw;
     background-image: ("./images/6-01-20.1805-cc-strip-base.png");
 }
 
@@ -1501,7 +1499,7 @@ video {
     position: absolute;
     width: 100vw;
     height: 50vw;
-    top: 50%;
+    top: 30%;
     left: 50%;
     margin-left: -50vw;
     margin-top: -25vw;
@@ -2933,7 +2931,7 @@ font-weight: 400;
 
     .pay-button__button {
         width: 33vw;
-        margin-left: -.5vw;
+        margin-left: 6vw;
         background-image: ("./images/6-01-20.1805-cc-strip-base.png");
     }
 
