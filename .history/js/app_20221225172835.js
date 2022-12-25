@@ -6,7 +6,7 @@ console.log("hello world");
 c("hello2");
 
 function init() {
-    
+    var i = 1,
   $(".headline").click(function () {
     window.location = $(this).find("a").attr("href");
     return false;
@@ -32,9 +32,9 @@ function init() {
     // if it is set to 1 (instead of 0) it is because the first image is styled when the page loads
     var images = document
         .getElementById("slideshow")
-        .getElementsByTagName("img");
-    var numberOfImages = images.length;
-    var i = 0;
+        .getElementsByTagName("img"),
+      numberOfImages = images.length,
+      i = 1;
 
     function kenBurns() {
       if (i === numberOfImages) {

@@ -6,7 +6,6 @@ console.log("hello world");
 c("hello2");
 
 function init() {
-    
   $(".headline").click(function () {
     window.location = $(this).find("a").attr("href");
     return false;
@@ -32,9 +31,9 @@ function init() {
     // if it is set to 1 (instead of 0) it is because the first image is styled when the page loads
     var images = document
         .getElementById("slideshow")
-        .getElementsByTagName("img");
-    var numberOfImages = images.length;
-    var i = 0;
+        .getElementsByTagName("img"),
+      numberOfImages = images.length,
+      vari = 1;
 
     function kenBurns() {
       if (i === numberOfImages) {
@@ -111,12 +110,12 @@ function init() {
     $(".validate-form").on("submit", function () {
       var check = true;
 
-      if ($(name).val().trim() === "") {
+      if ($(name).val().trim() == "") {
         showValidate(name);
         check = false;
       }
 
-      if ($(subject).val().trim() === "") {
+      if ($(subject).val().trim() == "") {
         showValidate(subject);
         check = false;
       }
@@ -133,7 +132,7 @@ function init() {
         check = false;
       }
 
-      if ($(message).val().trim() === "") {
+      if ($(message).val().trim() == "") {
         showValidate(message);
         check = false;
       }
