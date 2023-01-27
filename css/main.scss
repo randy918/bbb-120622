@@ -26,6 +26,7 @@ $colors: (bg: rgba(55, 66, 76, 1),
 * {
     box-sizing: border-box;
     border: none;
+    background-color: black;
 }
 
 @font-face {
@@ -53,7 +54,7 @@ $colors: (bg: rgba(55, 66, 76, 1),
 //}
 
 body {
-    background: getColor(theBackground);
+    background: getColor(theDarkGray);
     font-family: "Roboto Flex Two", sans-serif;
     font-weight: 300;
     font-size: 30px;

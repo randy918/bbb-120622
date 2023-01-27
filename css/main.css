@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   border: none;
+  background-color: black;
 }
 
 @font-face {
@@ -19,7 +20,7 @@
   font-weight: -600;
 }
 body {
-  background: rgb(241, 227, 214);
+  background: rgb(43, 50, 56);
   font-family: "Roboto Flex Two", sans-serif;
   font-weight: 300;
   font-size: 30px;
