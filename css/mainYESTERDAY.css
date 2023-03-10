@@ -537,23 +537,13 @@ header {
 
 .slogan {
   position: absolute;
-  -webkit-animation: slogan__keyframes 8s;
-          animation: slogan__keyframes 8s;
+  animation: slogan__keyframes 8s;
   z-index: 20;
 }
 .slogan__image {
   width: 94vw;
   margin-top: 43.5vw;
   margin-left: 2vw;
-}
-
-@-webkit-keyframes slogan__keyframes {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 @keyframes slogan__keyframes {
@@ -971,19 +961,6 @@ header {
   pointer-events: none;
 }
 
-.container .row100 .inputBox input:-ms-input-placeholder ~ .pline {
-  position: absolute;
-  bottom: 0;
-  display: block;
-  width: 100%;
-  height: 2px;
-  background: white;
-  -ms-transition: 0.5s;
-  transition: 0.5s;
-  border-radius: 2px;
-  pointer-events: none;
-}
-
 .container .row100 .inputBox .pline,
 .container .row100 .inputBox input:placeholder-shown ~ .pline {
   position: absolute;
@@ -1245,7 +1222,7 @@ video {
   width: 45vw;
   margin: 0;
   padding: 0;
-  color: hsl(240deg, 100%, 50%);
+  color: hsl(240, 100%, 50%);
   flex-grow: 1;
 }
 .box222__text {
@@ -1383,15 +1360,6 @@ video {
   transform: scale(1.075);
 }
 
-@-webkit-keyframes logoFades {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 @keyframes logoFades {
   from {
     opacity: 0;
@@ -1402,182 +1370,122 @@ video {
 }
 .bit1 {
   opacity: 0;
-  -webkit-animation: logoFades ease-in 1;
-          animation: logoFades ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation: logoFades ease-in 1;
+  animation-fill-mode: forwards;
+  animation-delay: 0s;
+  animation-duration: 0.5s;
 }
 
 #by {
   opacity: 0;
-  -webkit-animation: logoFades ease-in 1;
-          animation: logoFades ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 0.33s;
-          animation-delay: 0.33s;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation: logoFades ease-in 1;
+  animation-fill-mode: forwards;
+  animation-delay: 0.33s;
+  animation-duration: 0.5s;
 }
 
 .bit2 {
   opacity: 0;
-  -webkit-animation: logoFades ease-in 1;
-          animation: logoFades ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 0.66s;
-          animation-delay: 0.66s;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation: logoFades ease-in 1;
+  animation-fill-mode: forwards;
+  animation-delay: 0.66s;
+  animation-duration: 0.5s;
 }
 
 #hoof-41 {
   opacity: 0;
-  -webkit-animation: logoFades ease-in 1;
-          animation: logoFades ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-  -webkit-animation-duration: 0.25s;
-          animation-duration: 0.25s;
+  animation: logoFades ease-in 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  animation-duration: 0.25s;
 }
 
 #hoof-42 {
   opacity: 0;
-  -webkit-animation: logoFades ease-in 1;
-          animation: logoFades ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
-  -webkit-animation-duration: 0.25s;
-          animation-duration: 0.25s;
+  animation: logoFades ease-in 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
+  animation-duration: 0.25s;
 }
 
 #hoof-31 {
   opacity: 0;
-  -webkit-animation: logoFades ease-in 1;
-          animation: logoFades ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-  -webkit-animation-duration: 0.25s;
-          animation-duration: 0.25s;
+  animation: logoFades ease-in 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  animation-duration: 0.25s;
 }
 
 #hoof-32 {
   opacity: 0;
-  -webkit-animation: logoFades ease-in 1;
-          animation: logoFades ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 2.5s;
-          animation-delay: 2.5s;
-  -webkit-animation-duration: 0.25s;
-          animation-duration: 0.25s;
+  animation: logoFades ease-in 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2.5s;
+  animation-duration: 0.25s;
 }
 
 #hoof-21 {
   opacity: 0;
-  -webkit-animation: logoFades ease-in 1;
-          animation: logoFades ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
-  -webkit-animation-duration: 0.25s;
-          animation-duration: 0.25s;
+  animation: logoFades ease-in 1;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+  animation-duration: 0.25s;
 }
 
 #hoof-22 {
   opacity: 0;
-  -webkit-animation: logoFades ease-in 1;
-          animation: logoFades ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 3.5s;
-          animation-delay: 3.5s;
-  -webkit-animation-duration: 0.25s;
-          animation-duration: 0.25s;
+  animation: logoFades ease-in 1;
+  animation-fill-mode: forwards;
+  animation-delay: 3.5s;
+  animation-duration: 0.25s;
 }
 
 #hoof-11 {
   opacity: 0;
-  -webkit-animation: logoFades ease-in 1;
-          animation: logoFades ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
-  -webkit-animation-duration: 0.25s;
-          animation-duration: 0.25s;
+  animation: logoFades ease-in 1;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
+  animation-duration: 0.25s;
 }
 
 #hoof-12 {
   opacity: 0;
-  -webkit-animation: logoFades ease-in 1;
-          animation: logoFades ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 4.5s;
-          animation-delay: 4.5s;
-  -webkit-animation-duration: 0.25s;
-          animation-duration: 0.25s;
+  animation: logoFades ease-in 1;
+  animation-fill-mode: forwards;
+  animation-delay: 4.5s;
+  animation-duration: 0.25s;
 }
 
 #foot-4 {
   opacity: 0;
-  -webkit-animation: logoFades ease-in 1;
-          animation: logoFades ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 1.75s;
-          animation-delay: 1.75s;
-  -webkit-animation-duration: 0.25s;
-          animation-duration: 0.25s;
+  animation: logoFades ease-in 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1.75s;
+  animation-duration: 0.25s;
 }
 
 #foot-3 {
   opacity: 0;
-  -webkit-animation: logoFades ease-in 1;
-          animation: logoFades ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 2.75s;
-          animation-delay: 2.75s;
-  -webkit-animation-duration: 0.25s;
-          animation-duration: 0.25s;
+  animation: logoFades ease-in 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2.75s;
+  animation-duration: 0.25s;
 }
 
 #foot-2 {
   opacity: 0;
-  -webkit-animation: logoFades ease-in 1;
-          animation: logoFades ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 3.75s;
-          animation-delay: 3.75s;
-  -webkit-animation-duration: 0.25s;
-          animation-duration: 0.25s;
+  animation: logoFades ease-in 1;
+  animation-fill-mode: forwards;
+  animation-delay: 3.75s;
+  animation-duration: 0.25s;
 }
 
 #foot-1 {
   opacity: 0;
-  -webkit-animation: logoFades ease-in 1;
-          animation: logoFades ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 4.75s;
-          animation-delay: 4.75s;
-  -webkit-animation-duration: 0.25s;
-          animation-duration: 0.25s;
+  animation: logoFades ease-in 1;
+  animation-fill-mode: forwards;
+  animation-delay: 4.75s;
+  animation-duration: 0.25s;
 }
 
 .social-wrap__facebook {
@@ -1691,15 +1599,6 @@ video {
   padding-bottom: 0;
   margin-top: 0;
   padding-top: 0;
-}
-
-@-webkit-keyframes flash {
-  0% {
-    opacity: 0.4;
-  }
-  100% {
-    opacity: 1.4;
-  }
 }
 
 @keyframes flash {
@@ -1912,7 +1811,7 @@ video {
     color: rgb(101, 42, 36);
   }
   h3,
-.founder {
+  .founder {
     font-size: 2vw;
     margin: auto;
     text-align: center;
@@ -1956,10 +1855,10 @@ video {
     color: rgb(101, 42, 36);
   }
   li .bbb-logo,
-.trigger,
-.checkbox,
-.social-wrap__facebook--other,
-.social-wrap__instagram--other {
+  .trigger,
+  .checkbox,
+  .social-wrap__facebook--other,
+  .social-wrap__instagram--other {
     display: none;
   }
   li .bbb-logo {
@@ -2255,22 +2154,13 @@ video {
   }
   .slogan {
     position: absolute;
-    -webkit-animation: slogan__keyframes 8s;
-            animation: slogan__keyframes 8s;
+    animation: slogan__keyframes 8s;
     z-index: 20;
   }
   .slogan__image {
     width: 94vw;
     margin-top: 43.5vw;
     margin-left: 2vw;
-  }
-  @-webkit-keyframes slogan__keyframes {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
   }
   @keyframes slogan__keyframes {
     from {
@@ -2590,7 +2480,7 @@ video {
     color: rgb(240, 44, 80);
   }
   .container .row100 .inputBox input,
-.container .row100 .inputBox.textarea textarea {
+  .container .row100 .inputBox.textarea textarea {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -2615,7 +2505,7 @@ video {
     pointer-events: none;
   }
   .container .row100 .inputBox input:focus + .text,
-.container .row100 .inputBox input:valid + .text {
+  .container .row100 .inputBox input:valid + .text {
     top: -35px;
   }
   .container .row100 .inputBox .line {
@@ -2630,11 +2520,11 @@ video {
     pointer-events: none;
   }
   .container .row100 .inputBox input:focus ~ .line,
-.container .row100 .inputBox input:valid ~ .line {
+  .container .row100 .inputBox input:valid ~ .line {
     height: 100%;
   }
   .container .row100 .inputBox input:focus ~ .pline,
-.container .row100 .inputBox input:valid ~ .pline {
+  .container .row100 .inputBox input:valid ~ .pline {
     height: 100%;
   }
   .container .row100 .inputBox input:-moz-placeholder-shown ~ .pline {
@@ -2649,20 +2539,8 @@ video {
     border-radius: 2px;
     pointer-events: none;
   }
-  .container .row100 .inputBox input:-ms-input-placeholder ~ .pline {
-    position: absolute;
-    bottom: 0;
-    display: block;
-    width: 100%;
-    height: 2px;
-    background: white;
-    -ms-transition: 0.5s;
-    transition: 0.5s;
-    border-radius: 2px;
-    pointer-events: none;
-  }
   .container .row100 .inputBox .pline,
-.container .row100 .inputBox input:placeholder-shown ~ .pline {
+  .container .row100 .inputBox input:placeholder-shown ~ .pline {
     position: absolute;
     bottom: 0;
     display: block;
@@ -2684,12 +2562,12 @@ video {
     resize: none;
   }
   .container .row100 .inputBox textarea:focus + .text,
-.container .row100 .inputBox textarea:valid + .text {
+  .container .row100 .inputBox textarea:valid + .text {
     top: -35px;
     left: 0px;
   }
   .container .row100 .inputBox textarea:focus ~ .line,
-.container .row100 .inputBox textarea:valid ~ .line {
+  .container .row100 .inputBox textarea:valid ~ .line {
     height: 100%;
   }
   input[type=submit] {
@@ -2884,7 +2762,7 @@ video {
     width: 45vw;
     margin: 0;
     padding: 0;
-    color: hsl(240deg, 100%, 50%);
+    color: hsl(240, 100%, 50%);
     flex-grow: 1;
   }
   .box222__text {
@@ -2918,8 +2796,8 @@ video {
     padding-top: 0;
   }
   .video-wrapper4 .embed-container iframe,
-.video-wrapper4 .embed-container object,
-.video-wrapper4 .embed-container embed {
+  .video-wrapper4 .embed-container object,
+  .video-wrapper4 .embed-container embed {
     position: absolute;
     top: 0;
     left: 0;
@@ -2936,8 +2814,8 @@ video {
     max-width: 100%;
   }
   #video-wrapper5 .embed-container iframe,
-#video-wrapper5 .embed-container object,
-#video-wrapper5 .embed-container embed {
+  #video-wrapper5 .embed-container object,
+  #video-wrapper5 .embed-container embed {
     position: absolute;
     top: 0;
     left: 4vw;
@@ -3006,14 +2884,6 @@ video {
   .logo:hover {
     transform: scale(1.075);
   }
-  @-webkit-keyframes logoFades {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
   @keyframes logoFades {
     from {
       opacity: 0;
@@ -3024,168 +2894,108 @@ video {
   }
   .bit1 {
     opacity: 0;
-    -webkit-animation: logoFades ease-in 1;
-            animation: logoFades ease-in 1;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
-    -webkit-animation-duration: 0.5s;
-            animation-duration: 0.5s;
+    animation: logoFades ease-in 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+    animation-duration: 0.5s;
   }
   #by {
     opacity: 0;
-    -webkit-animation: logoFades ease-in 1;
-            animation: logoFades ease-in 1;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-    -webkit-animation-delay: 0.33s;
-            animation-delay: 0.33s;
-    -webkit-animation-duration: 0.5s;
-            animation-duration: 0.5s;
+    animation: logoFades ease-in 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.33s;
+    animation-duration: 0.5s;
   }
   .bit2 {
     opacity: 0;
-    -webkit-animation: logoFades ease-in 1;
-            animation: logoFades ease-in 1;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-    -webkit-animation-delay: 0.66s;
-            animation-delay: 0.66s;
-    -webkit-animation-duration: 0.5s;
-            animation-duration: 0.5s;
+    animation: logoFades ease-in 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.66s;
+    animation-duration: 0.5s;
   }
   #hoof-41 {
     opacity: 0;
-    -webkit-animation: logoFades ease-in 1;
-            animation: logoFades ease-in 1;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-    -webkit-animation-delay: 1s;
-            animation-delay: 1s;
-    -webkit-animation-duration: 0.25s;
-            animation-duration: 0.25s;
+    animation: logoFades ease-in 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration: 0.25s;
   }
   #hoof-42 {
     opacity: 0;
-    -webkit-animation: logoFades ease-in 1;
-            animation: logoFades ease-in 1;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-    -webkit-animation-delay: 1.5s;
-            animation-delay: 1.5s;
-    -webkit-animation-duration: 0.25s;
-            animation-duration: 0.25s;
+    animation: logoFades ease-in 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+    animation-duration: 0.25s;
   }
   #hoof-31 {
     opacity: 0;
-    -webkit-animation: logoFades ease-in 1;
-            animation: logoFades ease-in 1;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-    -webkit-animation-delay: 2s;
-            animation-delay: 2s;
-    -webkit-animation-duration: 0.25s;
-            animation-duration: 0.25s;
+    animation: logoFades ease-in 1;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-duration: 0.25s;
   }
   #hoof-32 {
     opacity: 0;
-    -webkit-animation: logoFades ease-in 1;
-            animation: logoFades ease-in 1;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-    -webkit-animation-delay: 2.5s;
-            animation-delay: 2.5s;
-    -webkit-animation-duration: 0.25s;
-            animation-duration: 0.25s;
+    animation: logoFades ease-in 1;
+    animation-fill-mode: forwards;
+    animation-delay: 2.5s;
+    animation-duration: 0.25s;
   }
   #hoof-21 {
     opacity: 0;
-    -webkit-animation: logoFades ease-in 1;
-            animation: logoFades ease-in 1;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-    -webkit-animation-delay: 3s;
-            animation-delay: 3s;
-    -webkit-animation-duration: 0.25s;
-            animation-duration: 0.25s;
+    animation: logoFades ease-in 1;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    animation-duration: 0.25s;
   }
   #hoof-22 {
     opacity: 0;
-    -webkit-animation: logoFades ease-in 1;
-            animation: logoFades ease-in 1;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-    -webkit-animation-delay: 3.5s;
-            animation-delay: 3.5s;
-    -webkit-animation-duration: 0.25s;
-            animation-duration: 0.25s;
+    animation: logoFades ease-in 1;
+    animation-fill-mode: forwards;
+    animation-delay: 3.5s;
+    animation-duration: 0.25s;
   }
   #hoof-11 {
     opacity: 0;
-    -webkit-animation: logoFades ease-in 1;
-            animation: logoFades ease-in 1;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-    -webkit-animation-delay: 4s;
-            animation-delay: 4s;
-    -webkit-animation-duration: 0.25s;
-            animation-duration: 0.25s;
+    animation: logoFades ease-in 1;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+    animation-duration: 0.25s;
   }
   #hoof-12 {
     opacity: 0;
-    -webkit-animation: logoFades ease-in 1;
-            animation: logoFades ease-in 1;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-    -webkit-animation-delay: 4.5s;
-            animation-delay: 4.5s;
-    -webkit-animation-duration: 0.25s;
-            animation-duration: 0.25s;
+    animation: logoFades ease-in 1;
+    animation-fill-mode: forwards;
+    animation-delay: 4.5s;
+    animation-duration: 0.25s;
   }
   #foot-4 {
     opacity: 0;
-    -webkit-animation: logoFades ease-in 1;
-            animation: logoFades ease-in 1;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-    -webkit-animation-delay: 1.75s;
-            animation-delay: 1.75s;
-    -webkit-animation-duration: 0.25s;
-            animation-duration: 0.25s;
+    animation: logoFades ease-in 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1.75s;
+    animation-duration: 0.25s;
   }
   #foot-3 {
     opacity: 0;
-    -webkit-animation: logoFades ease-in 1;
-            animation: logoFades ease-in 1;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-    -webkit-animation-delay: 2.75s;
-            animation-delay: 2.75s;
-    -webkit-animation-duration: 0.25s;
-            animation-duration: 0.25s;
+    animation: logoFades ease-in 1;
+    animation-fill-mode: forwards;
+    animation-delay: 2.75s;
+    animation-duration: 0.25s;
   }
   #foot-2 {
     opacity: 0;
-    -webkit-animation: logoFades ease-in 1;
-            animation: logoFades ease-in 1;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-    -webkit-animation-delay: 3.75s;
-            animation-delay: 3.75s;
-    -webkit-animation-duration: 0.25s;
-            animation-duration: 0.25s;
+    animation: logoFades ease-in 1;
+    animation-fill-mode: forwards;
+    animation-delay: 3.75s;
+    animation-duration: 0.25s;
   }
   #foot-1 {
     opacity: 0;
-    -webkit-animation: logoFades ease-in 1;
-            animation: logoFades ease-in 1;
-    -webkit-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-    -webkit-animation-delay: 4.75s;
-            animation-delay: 4.75s;
-    -webkit-animation-duration: 0.25s;
-            animation-duration: 0.25s;
+    animation: logoFades ease-in 1;
+    animation-fill-mode: forwards;
+    animation-delay: 4.75s;
+    animation-duration: 0.25s;
   }
   .social-wrap__facebook {
     position: absolute;
@@ -3296,14 +3106,6 @@ video {
     padding-bottom: 0;
     margin-top: 0;
     padding-top: 0;
-  }
-  @-webkit-keyframes flash {
-    0% {
-      opacity: 0.4;
-    }
-    100% {
-      opacity: 1.4;
-    }
   }
   @keyframes flash {
     0% {
